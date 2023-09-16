@@ -30,7 +30,7 @@ Follow these steps to install the Remote Team HRMS System:
 1. Clone the repository to your server:
 
    ```bash
-   git clone https://github.com/your-repo/remote-team-hrms.git
+   git clone https://github.com/bansaritech/hrms.git
    ```
 
 2. Navigate to the project directory:
