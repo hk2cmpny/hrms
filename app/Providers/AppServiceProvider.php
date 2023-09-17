@@ -20,8 +20,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        UserResource::enablePasswordUpdates(function (): bool {
-            return auth()->user()->email === "harikrushna@enstead.com";
-        });
+        // UserResource::enablePasswordUpdates(function (): bool {
+        //     return auth()->user()->email === "harikrushna@enstead.com";
+        // });
+        if(config('app.env') === 'production') {
+            \URL::forceScheme('https');
+        }
     }
 }
