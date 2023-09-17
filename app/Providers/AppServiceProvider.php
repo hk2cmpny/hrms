@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use RyanChandler\FilamentUserResource\Resources\UserResource;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -19,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        UserResource::enablePasswordUpdates(function (): bool {
+            return auth()->user()->email === "harikrushna@enstead.com";
+        });
     }
 }
