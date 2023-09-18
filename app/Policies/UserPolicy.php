@@ -42,6 +42,14 @@ class UserPolicy
     /**
      * Determine whether the user can delete the model.
      */
+    public function deleteAny(User $user): bool
+    {
+        return boolval($user->is_admin);
+    }
+
+    /**
+     * Determine whether the user can delete the model.
+     */
     public function delete(User $user, User $subject): bool
     {
         return boolval($user->is_admin);
