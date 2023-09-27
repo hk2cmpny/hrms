@@ -45,7 +45,7 @@
 
 <footer class="bg-gray-800 text-white py-8">
     <div class="container mx-auto text-center">
-        <p>&copy; 2023 Your Company. All Rights Reserved.</p>
+        <p>&copy; 2023 Bansari Tech. All Rights Reserved.</p>
     </div>
 </footer>
 
