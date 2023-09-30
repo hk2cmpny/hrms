@@ -10,8 +10,8 @@
 
 <nav class="bg-white">
     <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-white text-2xl font-bold">
-            <img src="/branding/BT-logo.png">
+        <a href="#" class="text-white text-2xl font-bold pb-6 pt-2">
+            <img src="/branding/enstead-logo.svg">
         </a>
     </div>
 </nav>
