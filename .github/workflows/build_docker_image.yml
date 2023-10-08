@@ -39,8 +39,5 @@ jobs:
           context: .
           push: true
           tags: ghcr.io/hk2cmpny/hrms:latest
-          build-args: |
-              user: btadmin
-              uid: 1000
           # tags: ${{ steps.meta.outputs.tags }}
           # labels: ${{ steps.meta.outputs.labels }}
