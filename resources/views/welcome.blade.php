@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remote First HRMS : Bansari Tech</title>
+    <title>Remote First HRMS : Enstead</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -18,7 +18,7 @@
 
 <section class="bg-green-400 text-gray-800 py-16">
     <div class="container mx-auto text-center">
-        <h1 class="text-4xl font-extrabold mb-4">Welcome to Remote First HRMS</h1>
+        <h1 class="text-4xl font-extrabold mb-4">Welcome to Enstead HRMS</h1>
         <p class="text-lg mb-8">Simple Human Resource Management System.</p>
         <a href="/admin" class="bg-white text-green-600 hover:bg-green-700 hover:text-gray-200 text-lg font-semibold px-6 py-3 rounded-full transition duration-300">
             Get Started
