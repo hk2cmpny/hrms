@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Remote First HRMS : Bansari Tech</title>
+    <title>Remote First HRMS : Enstead</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-100">
@@ -45,7 +45,7 @@
 
 <footer class="bg-gray-800 text-white py-8">
     <div class="container mx-auto text-center">
-        <p>&copy; 2023 Bansari Tech. All Rights Reserved.</p>
+        <p>&copy; 2023 <a href="https://enstead.com/">Enstead</a>. All Rights Reserved.</p>
     </div>
 </footer>
 
