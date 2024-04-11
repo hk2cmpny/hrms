@@ -45,6 +45,8 @@ COPY . /app
 
 RUN rm -rf /app/vendor /app/node_modules
 
+RUN cp .env.example .env
+
 WORKDIR /app
 
 ##################  APP SETUP START  ##################
