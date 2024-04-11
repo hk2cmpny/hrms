@@ -41,13 +41,15 @@ RUN apk del .build-deps
 
 RUN mkdir /app
 
-COPY . /app
+WORKDIR /app
 
-RUN rm -rf /app/vendor /app/node_modules
+COPY . .
+
+RUN rm -rf vendor node_modules
+
+RUN ls -la
 
 RUN cp .env.example .env
-
-WORKDIR /app
 
 ##################  APP SETUP START  ##################
 
